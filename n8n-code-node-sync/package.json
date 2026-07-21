@@ -1,1 +1,16 @@
-
+{
+  "name": "n8n-code-node-sync",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Two-way sync between n8n-as-code .workflow.ts Code nodes and standalone .js/.py files, with auto-push and auto folder naming.",
+  "author": "Thanh Tran",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "node sync-daemon.js \"../workflows/**/*.workflow.ts\" ../.n8n-code"
+  },
+  "dependencies": {
+    "ts-morph": "^23.0.0",
+    "chokidar": "^3.6.0",
+    "glob": "^10.4.0"
+  }
+}
