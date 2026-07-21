@@ -27,7 +27,7 @@ IntelliSense/lint trong VSCode.
 ## 3. Cài đặt
 
 **Bước 1** — Copy folder `n8n-code-node-sync/` vào **root workspace** của
-project n8n-as-code trên máy dev (ngang hàng với `workflows/`,
+project N8N bạn đang làm (n8n-code-node-sync trên máy dev ngang hàng với `workflows/`,
 `n8nac-config.json`).
 
 **Bước 2** — Cài dependency:
